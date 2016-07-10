@@ -17,9 +17,21 @@
 
 // Section
 @import "components/section/section";
-@import "components/menu/menu";
-@import "components/index/test";
 
+@import "components/registerform/register";
+@import "components/footer/footer";
+@import "components/header/header";
+
+@import "components/buttons/buttons";
+
+@import "components/images/images";
+
+@import "components/inputs/input";
+
+@import "components/labels/labels";
+
+
+@import "pages";
 
 // LAYOUT
 @import "layout/page-footer/footer";

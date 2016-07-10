@@ -1,0 +1,48 @@
+@media only screen and (max-width: 480px) {
+    .formregistration {
+        width:150px;
+        height:300px
+    }
+    input[type=text], textarea {
+        width:75%;
+    }
+}
+body {
+   
+    margin: 0;
+    padding: 0;
+    position:relative;
+}
+
+.formregistration
+{
+	
+	background-color:white;
+	border-radius:10px;
+	width:598px;
+	height:925px;
+	
+	
+}
+
+#container-form
+{
+	width:395px;
+	margin:0 auto;
+}
+
+#alignment
+{
+	text-align:left;
+	padding-left:10px;
+	padding-top:2px;
+
+}
+
+//////////////////////////////////////////////////
+//formular addmenu.html
+.addform
+{
+	width:601px;
+	height:839px;
+}

@@ -1,0 +1,151 @@
+// REGISTER
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}		
+body {
+   
+    margin: 0;
+    padding: 0;
+    position:relative;
+}
+
+.page-register form {
+	margin-top: 100px;
+}
+
+.inputlabel
+{
+	text-align:center;
+	
+	
+}
+
+
+.button--state-success {
+	
+	padding:2px;
+	border-radius:9px;
+	margin-bottom:35px;
+	margin-top:54px;
+
+}
+.addbtn{
+	
+	
+	margin-bottom:145px;
+	margin-top:48px;
+
+}
+
+.btn {
+   
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+.menu
+{
+	position:fixed;
+	margin-top:-20px;
+	margin-left:-2px;
+
+}
+
+.mlabel
+{
+	
+	display:inline-block;
+	padding-right:15px;
+	padding-left:15px;
+	vertical-align:bottom;
+	margin-bottom:10px;
+}
+
+
+#imgmenu
+{
+
+	width:2.6%;
+	height:60%;
+	margin-top:16px;
+	margin-left:18px;
+	position: relative;
+    display: inline-block;
+}
+
+
+#registerimg{
+
+ 
+    position: fixed; 
+  	top: 0; 
+  	left: 0; 
+  	z-index: -1;
+}	
+
+#imgmenus
+{
+
+    position: relative;
+}
+#kitchenimage{
+    position: fixed; 
+  	z-index: -1;
+}	
+
+
+.formregistration
+{
+	
+	margin: 0 auto;
+	padding-top:2px;
+	margin-top: 19px;
+}
+
+
+
+#container-form
+{
+	margin:0 auto;
+}
+
+#alignment
+{
+	text-align:left;
+	padding-left:23px;
+	padding-top:23px;
+
+}
+
+
+
+#first__p
+{
+
+margin-top:-125px;
+	margin-left:70px;
+
+
+}
+
+#second__p
+{
+
+margin-top:-156px;
+	margin-left:130px;
+
+}
+
+
+.addform
+{
+	
+	padding-top:30px;
+	margin-top:1px;
+	margin-bottom:30px;
+}
