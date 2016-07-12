@@ -30,3 +30,18 @@ input.invalid, textarea.invalid{
 input.valid, textarea.valid{
 	border: 4px solid green;
 }
+
+input:on
+
+.focusField { 
+        border:solid 2px #73A6FF;
+        background:#EFF5FF;
+        color:#000;
+    }
+
+
+.focusField {
+    border:solid 2px #73A6FF;
+    background:#EFF5FF;
+    color:#000;
+    }

@@ -40,7 +40,7 @@ $(document).ready(function() {
 });
 $('#contact_address').on('input', function() {
 	var input=$(this);
-	var re = /^[a-zA-Z][a-zA-Z0-9-_\.]{5,12}$/;
+	var re = /^[A-Za-z0-9 _]*[A-Za-z0-9][A-Za-z0-9 _]*$/;
 	var is_email=re.test(input.val());
 	if(is_email){input.removeClass("invalid").addClass("valid");}
 	else{input.removeClass("valid").addClass("invalid");}
@@ -89,3 +89,21 @@ $(document).ready(function () {
     });
 });
 
+
+$(document).ready(function() {
+    $('input[type="text"]').addClass("error");
+	$('input[type="text"]').focus(function() {
+		$(this).removeClass("valid").addClass("focusField");
+        
+    });
+    $('input[type="text"]').blur(function() {
+    	
+    		
+        
+    });
+});
+
+$(document).ready(function () {
+    $('#wrapper').draggable();
+    $('#wrapper').resizable();
+});

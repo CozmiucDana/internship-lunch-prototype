@@ -75,19 +75,42 @@ th:nth-child(3) {
 
 
 
+table {
+	display:block;
+}
 
 
-@media only screen and (max-width: 480px) {
 
-   tbody {
 
-	height:850px;
-	overflow-x:auto;
+.wrapper{
+  height:750px; 
+  width:100%; 
+   	overflow-x:auto;
 	overflow-y:hidden;
-	width:300px;
-  	margin: 0 auto;
-	font-size: 14px;
-	
+  white-space:nowrap;
+  margin:0 auto;
+  margin-bottom:150px;
+  text-align: center;
+  
+}
+.content {
+  display:inline-block;
+  margin:0 auto;
 }
 
-}
+
+
+// @media only screen and (max-width: 480px) {
+
+//    .content {
+
+// 	height:850px;
+// 	overflow-x:auto;
+// 	overflow-y:hidden;
+// 	width:200px;
+//   	margin: 0 auto;
+// 	font-size: 14px;
+	
+// }
+
+// }
