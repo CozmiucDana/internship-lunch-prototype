@@ -1,151 +1,169 @@
 // REGISTER
-html {
+html{
     position: relative;
+
     min-height: 100%;
 }
-body {
+
+body{
     margin: 0 0 100px; /* bottom = footer height */
-}		
-body {
-   
+}
+
+body{
+    position: relative;
+
     margin: 0;
     padding: 0;
-    position:relative;
-}
-
-.page-register form {
-	margin-top: 100px;
-}
-
-.inputlabel
-{
-	text-align:center;
-	
-	
 }
 
 
-.button--state-success {
-	
-	padding:2px;
-	border-radius:9px;
-	margin-bottom:35px;
-	margin-top:54px;
 
-}
-.addbtn{
-	
-	
-	margin-bottom:145px;
-	margin-top:48px;
+.button--state-success{
+    margin-top: 34px;
+    margin-bottom: 35px;
 
-}
-
-.btn {
-   
-    padding: 15px 32px;
     text-align: center;
+
+    border-radius: 9px;
+}
+
+.addbtn{
+    margin-top: 48px;
+    margin-bottom: 145px;
+}
+
+.btn{
     display: inline-block;
+
+    padding: 15px 32px;
+
+    text-align: center;
 }
 
-.menu
-{
-	position:fixed;
-	margin-top:-20px;
-	margin-left:-2px;
+.menu{
+    position: fixed;
 
+    margin-top: -20px;
+    margin-left: -2px;
 }
 
-.mlabel
-{
-	
-	display:inline-block;
-	padding-right:15px;
-	padding-left:15px;
-	vertical-align:bottom;
-	margin-bottom:10px;
-}
-
-
-#imgmenu
-{
-
-	width:2.6%;
-	height:60%;
-	margin-top:16px;
-	margin-left:18px;
-	position: relative;
+.mlabel{
     display: inline-block;
+
+    margin-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    vertical-align: bottom;
 }
 
 
-#registerimg{
-
- 
-    position: fixed; 
-  	top: 0; 
-  	left: 0; 
-  	z-index: -1;
-}	
-
-#imgmenus
-{
-
-    position: relative;
-}
-#kitchenimage{
-    position: fixed; 
-  	z-index: -1;
-}	
-
-
-.formregistration
-{
-	
-	margin: 0 auto;
-	padding-top:2px;
-	margin-top: 19px;
+.registerimg{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
 }
 
 
+.alignment{
+    padding-top: 23px;
+    padding-left: 23px;
 
-#container-form
-{
-	margin:0 auto;
-}
-
-#alignment
-{
-	text-align:left;
-	padding-left:23px;
-	padding-top:23px;
-
+    text-align: left;
 }
 
 
+table {
+    display: block;
+    overflow:auto;
 
-#first__p
-{
-
-margin-top:-125px;
-	margin-left:70px;
-
-
+    width: 900px;
+    height: 780px;
+    margin: 0 auto;
+    margin-top: 173px;
+    margin-bottom: 173px;
 }
 
-#second__p
-{
-
-margin-top:-156px;
-	margin-left:130px;
-
+tr {
+    text-align: center;
 }
 
 
-.addform
-{
-	
-	padding-top:30px;
-	margin-top:1px;
-	margin-bottom:30px;
+th {
+    text-align: center;
+}
+
+
+.menu {
+    position: fixed;
+
+    margin-top: -20px;
+    margin-left: -2px;
+}
+
+footer {
+    position: fixed;
+}
+
+.container-table {
+    display: block;
+}
+
+.copyright {
+    margin-top: 18px;
+
+    text-align: center;
+}
+
+
+
+// PAGES DESIGN
+
+
+// REGISTER PAGE
+
+
+.page-register .card {
+    margin-top: 120px;
+}
+
+
+.form__button {
+    display: block;
+
+    margin-top: 60px;
+}
+
+
+td:first-child {
+    padding-left: 74px;
+}
+
+td:nth-child(2) {
+    padding-left: 127px;
+}
+
+td:nth-child(3) {
+    padding-left: 111px;
+
+    text-align: justify;
+}
+
+
+th {
+    text-align: justify;
+}
+
+
+th:first-child {
+    padding-left: 113px;
+}
+th:nth-child(2) {
+    padding-left: 175px;
+}
+
+
+th:nth-child(3) {
+    padding-left: 212px;
 }

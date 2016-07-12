@@ -26,12 +26,16 @@
 
 @import "components/images/images";
 
-@import "components/inputs/input";
-
-@import "components/labels/labels";
-
-
+@import "components/tables/tables";
 @import "pages";
 
 // LAYOUT
 @import "layout/page-footer/footer";
+
+
+// REFACTORY
+// COMPONENTS
+@import "components/card";
+@import "components/form";
+
+
