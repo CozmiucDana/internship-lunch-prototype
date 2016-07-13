@@ -1,18 +1,10 @@
 .sectionmenu {
-  
-    padding-top:108px;
-    float:left;
- 	
  	font-family:"Lato";
- 	padding-left: 50px;
     font-size:16px;
-
-  //  padding-bottom:30px;
 }
 
 ul {
      list-style: none;
-  
 }
 
 li a {
@@ -22,44 +14,16 @@ li a {
 }
 
 li a:nth-child(5) {
-
-
 	border-left:2px solid #336598;
-
 }
 
 li a:hover {
-  display: inline;
-  border-left: 2px solid #336598;
+ 	border-left: 2px solid #336598;
   
-
-  -webkit-padding-start: 0px;
-     -moz-padding-start: 0px;
-          padding-start: 0px;
 }
 
 .logosx {
-	margin-top:140px;
 	border: 1px solid gray;
-	
-	
-
 }
 
-.logosx__one {
-	margin-left:90px;
-	padding-top:70px;
-	padding-bottom:70px;
-	padding-left:20px;
-	
-}
 
-.container-images
-{
-position : absolute;
-top : 50%;
-left : 50%;
-width : 200px; /* Width of the image in question */
-height : 200px;/* height of the image in question */
-margin : -100px 0px 0px -100px;
-}

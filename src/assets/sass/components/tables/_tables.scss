@@ -1,29 +1,23 @@
+table {
 
+   box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   width:900px;
+   overflow-y:scroll;
+   height: 650px;
+   
+}
+
+thead,tbody {
+  	max-width:540px; 
+
+} 
 
 th {
 
 	color:white;
-	background-color: #56cf90;
+	background-color: #606c88;
 	font-size:24px;
 	height:43px;
-
-
-}
-thead,tbody {
-  	max-width:540px; 
-
-}
-
-table {
-
-   box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   width:1554px;
-   height:1285px;
-
-
-}
-tbody {
-	 background-color:white;
 }
 
 tr {
@@ -33,6 +27,9 @@ tr {
 	
 }
 
+tbody {
+	 background-color:white;
+}
 
 
 td:first-child {
@@ -48,16 +45,13 @@ td:nth-child(2) {
 
 }
 
-
 td:nth-child(3) {
 
 	font-size:26px;
 	width:500px;
-	
 }
 
 th {
-
 	text-align: justify;
 	
 }
@@ -74,43 +68,14 @@ th:nth-child(3) {
 }
 
 
-
-table {
-	display:block;
-}
-
-
-
-
-.wrapper{
-  height:1250px; 
-  width:100%; 
-   	overflow-x:auto;
-	overflow-y:hidden;
-  white-space:nowrap;
-  margin:0 auto;
-  margin-bottom:150px;
-  text-align: center;
-  
+.wrapper {
+  	height:1250px; 
+  	width:100%; 
+  	white-space:nowrap;
+ 	max-width:100%;
 }
 .content {
-  display:inline-block;
-  margin:0 auto;
+    overflow-x:auto;
+	overflow-y:hidden;
 }
 
-
-
-// @media only screen and (max-width: 480px) {
-
-//    .content {
-
-// 	height:850px;
-// 	overflow-x:auto;
-// 	overflow-y:hidden;
-// 	width:200px;
-//   	margin: 0 auto;
-// 	font-size: 14px;
-	
-// }
-
-// }
