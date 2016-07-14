@@ -19,35 +19,45 @@
 </head>
 
 <div class = "menu">
-
 <div class ="alignment"> 
-<img src= "assets/images/mobmenu.png" class = "assistlogo"> </div>
-<div class = "alignlogo">
-<a href="register.html"><img src= "assets/images/logo.png" class="addlogo"></a> </div>
-  <div class="usermenu">
+<div class="dropdown">
 
-  <p class="accountwelcome">Bine ati venit, Erika Nichelson!</p>
-  <div class="imageacc"> <img src="/assets/images/abcd.png"/>
+<button class="dropbtn"><div class="assistlogo"></div></button>
+
+  <div class="dropdown-content">
+      <a href="login.html">Log in</a>
+      <a href="addmenu.html">Add Menu</a>
+      <a href="ordervisualization.html">View orders</a>
+      <a href="contact.html">Contact</a>
+      <a href="signout.html">Sign out</a>
   </div>
+
 </div>
 
+<div class="addlogo"><a href="register.html"></a> 
+</div>
+</div>
+
+  <div class="usermenu">
+  <p class="accountwelcome">Bine ati venit, Erika Nichelson!</p>
+  <div class="imageacc"></div>
+  </div>
+
+</div>
 </div>
 
   <main class="page-content">
     {{> body}}
   </main><!-- /page content -->
 
-
-
-
-
   <script src="{{root}}assets/js/app.js"></script>
 
 </body>
 
-
 <footer>
-
 <p class="copyright">  Copyright 2016. The Archers</p></div>
+
 </footer>
+
+
 </html>

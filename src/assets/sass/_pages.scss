@@ -312,27 +312,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', end
 
 }
 
-//header
-.accountwelcome {
-    margin-right:16px;
-    float:left;
-    display:inline-block;
-}
 
-.imageacc {
-    position:fixed;
-    display:inline-block;
-    margin-left:70px;
-   
-}
-
-.usermenu {
-    text-align:center;
-    float:right;
-    padding-right:30px;
-  
-    padding-top:0;
-}
 
 @media only screen and (max-width: 780px) {
   .accountwelcome {
@@ -349,13 +329,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', end
     padding-top:2px;
 }
 
-@media only screen and (max-width: 780px) {
-    .accountwelcome
-    {
-        display:none !important;
-        
-    }
-}
 
 @media only screen and (max-width: 487px) {
     .addlogo {
@@ -439,29 +412,74 @@ li a:hover {
     
 }
 
-// IMAGES
+//header
+.accountwelcome {
+    margin-right:16px;
+    float:left;
+    display:inline-block;
+}
+
+.imageacc {
+    position:fixed;
+    display:inline-block;
+    margin-left:70px;
+    height:63px;
+    width:66px;
+    margin-top:-8px;
+    content: url('/assets/images/abcd.png');
+}
+
+.usermenu {
+    text-align:center;
+    float:right;
+    padding-right:30px;
+  
+    margin-top:7px;
+}
 .assistlogo {
     float:left;
     position:fixed;
-    padding-top:10px;
     z-index:1000; //change your number as per elements lies on your page.
     display:inline-block;
     vertical-align: baseline;
+  
+   
 }
 
-.imgmenu {
-    margin-top:25px;
-    padding-left:10px;
-    position:fixed;
-}
+
 
 .addlogo {
     position:fixed;
+    content:url('../images/logo.png');
     z-index:1000; //change your number as per elements lies on your page.
     vertical-align: baseline;
     display: inline-block;
-    padding-left:90px;
-    padding-top:15px;
+    padding-left:70px;
+    margin-top:13px;
+  
+}
+
+
+// DEFAULT.HTML + DROP DOWN MENU
+.dropdown {
+    position: relative;
+    display: block;
+    margin-top :7px;
     
 }
+.dropdown-content {
+    padding-top:40px;
+    margin-top:61px;
+    display: none;
+}
+
+.dropdown-content a { 
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
+
 
